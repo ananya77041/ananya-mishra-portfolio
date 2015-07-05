@@ -513,13 +513,13 @@ a:hover {
   text-align: center;
   color: #DEE9F3;
   height: 50em;
-  padding: 21em 0;
+  padding: 17em 0;
 }
 
 .about-me .content {
   background-color: rgba(3, 23, 40, .6);
-  width: 50%;
-  height: 15em;
+  width: 40em;
+  height: 20em;
   margin: 0 auto;
   border-radius: 100%;
   padding: 1.2em;
@@ -527,6 +527,11 @@ a:hover {
 
 .about-me p {
   margin: 0 auto;
+  font-size: 1.2em;
+}
+
+.about-me h2 {
+  font-size: 3em;
 }
 
 /* PROJECTS */
@@ -544,6 +549,7 @@ a:hover {
 
 .project .project-desc {
   max-width: 40%;
+  height: 15em;
   text-align: left;
   display: inline-block;
 }
@@ -552,7 +558,9 @@ a:hover {
   display: inline-block;
   float: right;
 /*  max-width: 40%;*/
-  max-width: 300px;
+  width: 300px;
+  border: solid 1px #031728;
+  border-radius: 10px;
 }
 
 .project2 {
@@ -581,8 +589,8 @@ a:hover {
   margin-top: 70px;
 }
 .contact .content {
-  margin-top: 4em;
-  margin-bottom: 4em;
+/*  margin-top: 4em;
+  margin-bottom: 4em;*/
 }
 
 .contact input[type="text"], textarea {
@@ -651,10 +659,6 @@ footer .content {
   border: 1px solid #537075;
   padding: 0.625rem 0;
   text-align: center;
-}
-
-.social > li:hover {
-  cursor: pointer;
 }
 
 .fa-twitter {
